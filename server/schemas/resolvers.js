@@ -23,5 +23,9 @@ const resolvers = {
         .populate("friends")
         .populate("thoughts");
     },
+
+
   },
 };
+
+module.exports = resolvers
